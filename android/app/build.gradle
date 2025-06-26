@@ -72,6 +72,14 @@ def enableProguardInReleaseBuilds = false
  */
 def jscFlavor = 'io.github.react-native-community:jsc-android:2026004.+'
 
+project.ext.react = [
+    entryFile: "index.js", // The entry file for the JS bundle
+    bundleAssetName: "index.android.bundle", // The name of the generated asset file containing your JS bundle
+    bundleInDebug: true, // Set to true to bundle the JS in debug builds
+    bundleInRelease: true
+    ]
+
+
 android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
