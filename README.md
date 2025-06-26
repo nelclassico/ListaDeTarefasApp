@@ -500,7 +500,7 @@ No Android Studio: Build > Clean Project e Sync Project with Gradle Files.
 
 
 
-
+<h2>Atividade para os Alunos</h2>
 
 
 Atividade para os Alunos: Adicionar uma Funcionalidade Simples
